@@ -1,0 +1,361 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('Rubik-Bold.eot');
+    src: url('Rubik-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Rubik-Bold.woff2') format('woff2'),
+        url('Rubik-Bold.woff') format('woff'),
+        url('Rubik-Bold.ttf') format('truetype'),
+        url('Rubik-Bold.svg#Rubik-Bold') format('svg');
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: white;
+}
+
+.header h1 span {
+    color: #B248AD;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik';
+    font-weight: 200;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+ul {
+    text-align: center;
+}
+
+header a:hover {
+    background-color: #B248AD;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+header {
+    background-color: rgb(252, 181, 30);
+    height: 50px;
+    margin: 0 auto;
+}
+
+#one {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#one h3 {
+    font-size: 60px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    margin-top: 100px;
+    color: #B248AD;
+}
+
+#one p {
+    font-size: 35px;
+    font-family: 'Rubik';
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#one a {
+    text-decoration: none;
+    color: #B248AD;
+    border: solid 2px;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Rubik';
+}
+
+#one a:hover {
+    background-color: #B248AD;
+    color: white;
+}
+
+#one div {
+    width: 45%;
+}
+
+@media(max-width:1200px){
+    #one div{
+        width: 60%;
+    }
+}
+
+#two {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#two h3 {
+    text-align: center;
+    font-family: 'Rubik';
+    font-size: 50px;
+    color: #B248AD;
+    margin-bottom: 20px;
+}
+
+.feat {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.feat div {
+    width: 25%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media(max-width:1200px){
+    .feat div{
+        width: 40%;
+        text-align: center;
+    }
+}
+
+@media(max-width:1000px){
+    .feat div{
+        width: 60%;
+        text-align: center;
+    }
+}
+
+.feat div h5 {
+    text-align: center;
+    font-size: x-large;
+    color: #B248AD;
+}
+
+.feat div p{
+    text-align: center;
+    font-size: large;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+
+.feat div a {
+    text-decoration: none;
+    color: #B248AD;
+    border: solid 2px;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Rubik';
+}
+
+.feat div a:hover {
+    background-color: #B248AD;
+    color: white;
+}
+
+#three{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+#three div{
+    width: 40%;
+    text-align: left;
+}
+
+#three div h3{
+    color: #B248AD;
+    font-size: 65px;
+    padding-top: 100px;
+}
+
+#three div p{
+    font-size: 25px;
+}
+
+.merry{
+    padding-left: 80px;
+}
+
+@media(max-width:1200px){
+    #three div{
+        width: 60%;
+    }
+}
+
+#four{
+    text-align: center;
+    margin: auto 0;
+    width: 100%;
+}
+
+#four h4{
+    color: #B248AD;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.cards{width: 90%;
+    display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin: auto 0;
+margin-bottom: 40px;
+} 
+
+.cards div{
+    width: 20%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+@media(max-width:1200px){
+    .cards div{
+        width: 40%;
+        text-align: center;
+    }
+}
+
+@media(max-width:1000px){
+    .cards div{
+        width: 60%;
+        text-align: center;
+    }
+}
+
+.cards div h5{
+    color: #B248AD;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.cards div p{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.cards div a {
+    text-decoration: none;
+    color: #B248AD;
+    border: solid 2px;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Rubik';
+}
+
+.cards div a:hover {
+    background-color: #B248AD;
+    color: white;
+}
+
+#five{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto 0;
+    margin-bottom: 100px;
+}
+
+.egift{
+    text-align: right;
+}
+
+#five div{
+    width: 40%;
+}
+
+#five h3 {
+    font-size: 60px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    margin-top: 100px;
+    color: #B248AD;
+}
+
+#five p {
+    font-size: 35px;
+    font-family: 'Rubik';
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#five a {
+    text-decoration: none;
+    color: #B248AD;
+    border: solid 2px;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Rubik';
+}
+
+#five a:hover {
+    background-color: #B248AD;
+    color: white;
+}
+
+@media(max-width:1200px){
+    #five div{
+        width: 60%;
+    }
+}
+
+@media(max-width:1200px){
+    #five .egift{
+        text-align: center;
+
+    }
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #B248AD;
+    margin: auto 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer div{
+    color: white;
+    width: 20%;
+}
